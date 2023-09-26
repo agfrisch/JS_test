@@ -33,3 +33,9 @@ console.log(Math.max(2, 4));
 let theNumber = Number(prompt("Pick a number"));
 console.log("Your number is the square root of " +
             theNumber * theNumber);
+
+const square = function(x) {
+    return x * x;
+};
+
+console.log(square(6));
